@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="addNote.css">
+</head>
+<body>
+
+    <div id="nav-container">
+        <nav>
+            <a class="category-title" href="/school-events.html">School Events</a>
+            <a href="/index.html">Freshmen</a>
+            <a href="/sophomore.html">Sophomore</a>
+            <a href="/junior.html">Junior</a>
+            <a href="/senior.html">Senior</a>
+            <img src="32360.png" alt="">
+        </nav>
+    </div>
+
+    <div id="note-adder">
+        <form>
+            
+            <label id='title-label' for="title">Title: </label>
+            <input id="title" type="text">
+        
+            <label id='message-label' for="message">Message: </label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        
+            <label id='sender-label' for="sender">Sender: </label>
+            <input id="sender" type="text">
+
+            <button onclick="sendNote()">Submit</button>
+        </form>
+    </div>
+
+    <script>
+
+        // // Get the element by its ID (replace 'yourElementId' with the actual ID of your element)
+        // const noteAdder = document.getElementById('note-adder');
+        // const title = document.getElementById('title');
+        // const message = document.getElementById('message');
+        // const sender = document.getElementById('sender');
+
+        // let elements = [title, message, sender]
+
+        // const titleLabel = document.getElementById('title-label');
+        // const messageLabel = document.getElementById('message-label');
+        // const senderLabel = document.getElementById('sender-label');
+
+        // let elementLabels = [titleLabel, messageLabel, senderLabel]
+
+        // noteAdderWidth = noteAdder.offsetWidth;
+
+        
+
+        // // for (i=0; i<3; i++) {
+
+        // //     console.log(elementLabels[i].offsetWidth);
+        // //     console.log(elements[i].offsetWidth);
+
+        // //     console.log(`${noteAdderWidth - elementLabels[i].offsetWidth}`);
+        // //     elements[i].style.width = `${noteAdderWidth - elementLabels[i].offsetWidth}px`;
+        // //     console.log(elements[i].offsetWidth + elementLabels[i].offsetHeight);
+        // // }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#note-adder {
+    margin-left: 25%;
+    margin-bottom: 0px;
+    width: 50%;
+    background-color: rgb(251, 238, 152);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 50px;
+
+    img {
+        height: 40px;
+    }
+
+
+    background-color: rgb(251, 238, 152);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+#nav-container {
+    position: fixed;
+
+    width: 98%;
+    top: 1%;
+    left: 1%;
+}
+
+body {
+    margin-top: 75px;
+}
+
+a.category-title {
+    font-size: xx-large;text-decoration: none;
+}
