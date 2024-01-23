@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/grid.css">
-    <link rel="stylesheet" href="/navbar.css">
-    <link rel="stylesheet" href="/general.css">
+    <link rel="stylesheet" href="/styles/grid.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/general.css">
 </head>
 <body>
     <div id="nav-container">
@@ -17,7 +17,7 @@
             <a href="/sophomore.html">Sophomore</a>
             <a href="/junior.html">Junior</a>
             <a href="/senior.html">Senior</a>
-            <img src="32360.png" alt="">
+            <a href="addNote.html"><img src="/images/add-button.png" alt=""></a>
         </nav>
     </div>
 
@@ -39,7 +39,7 @@
         
 
         window.onload = async () => {
-            const data = await fetch('./freshmen.json');
+            const data = await fetch('./messages/freshmen.json');
             const messages = await data.json();
 
             for (let i=0; i < messages.length; i++) {

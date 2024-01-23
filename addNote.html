@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="addNote.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/addNote.css">
 </head>
 <body>
 
@@ -17,7 +17,6 @@
             <a href="/sophomore.html">Sophomore</a>
             <a href="/junior.html">Junior</a>
             <a href="/senior.html">Senior</a>
-            <img src="32360.png" alt="">
         </nav>
     </div>
 
@@ -34,8 +33,10 @@
             <label id='sender-label' for="sender">Sender: </label>
             <input id="sender" type="text">
 
-            <button onclick="sendNote()">Submit</button>
+            
         </form>
+
+        <button onclick="window.history.go(-1);">Submit</button>
     </div>
 
     <script>
@@ -67,6 +68,10 @@
         // //     elements[i].style.width = `${noteAdderWidth - elementLabels[i].offsetWidth}px`;
         // //     console.log(elements[i].offsetWidth + elementLabels[i].offsetHeight);
         // // }
+
+        function history_back() {
+            window.history.back();
+        } 
 
     </script>
 </body>
